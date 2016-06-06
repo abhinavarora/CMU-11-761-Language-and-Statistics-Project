@@ -1,0 +1,13 @@
+README 
+
+In order to run the following code, please follow the following instructions:
+
+1. After extracting the TAR, please make sure that you give the folder executable permissions. There are some executables in the folder which are necessary for us to run.
+
+2. The folder has 2 executable files evallm and evallm_mac. These are the binaries of the CMU Statistical Modelling Toolkit. If you run the code on MAC OSX, then rename evalll_mac to evallm. 
+
+3. The model also relies on some higher order n-gram language models that were trained on the provided 100MW corpus, These are huge files and as per the discussion with the TA on Piazza, they have been posted on BOX server. You can download them by using the script ./download_data.sh 
+If this does not work due to some reason, you can also manually download the tar from the following link : https://cmu.box.com/shared/static/3duna55uo9v1bwopn8ityvnphuoldpzn.gz 
+Once downloaded, please extract the tar file and place all models in the current directory of the project. 
+
+4. Once the data is downloaded, please copy your test file to current working directory and run the command ./RunMe.sh <  <filename>
